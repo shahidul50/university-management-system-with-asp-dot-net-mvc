@@ -1,0 +1,124 @@
+﻿@model UniversityManagementSystem.Models.Result
+@{
+    ViewBag.Title = "StudentResult";
+}
+
+<h2 class="text-center">StudentResult</h2>
+<hr/>
+    @if (ViewBag.Message != null)
+    {
+        <p>@ViewBag.Message</p>
+    }
+<hr/>
+<div>
+    @using (Html.BeginForm())
+    {
+        <table>
+            <tr>
+            <td>@Html.LabelFor(x => x.StudentId)</td>
+            <td>
+                @Html.DropDownListFor(x => x.StudentId, new SelectList(ViewBag.RegistrationNum, "Value", "Text"))
+                @Html.ValidationMessageFor(x => x.StudentId)
+            </td>
+
+            <tr>
+                <td>
+                    <label for="StudentName"> Name</label>
+                </td>
+                <td>
+                    <input type="text" id="StudentName" name="StudentName"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Email"> Email</label>
+                </td>
+                <td>
+                    <input type="text" id="Email" name="Email"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Department"> Department</label>
+                </td>
+                <td>
+                    <input type="text" id="Department" name="Department"/>
+                </td>
+            </tr>
+
+            <tr>
+            <td>@Html.LabelFor(x => x.CourseId)</td>
+            <td>
+                @Html.DropDownListFor(x => x.CourseId, new SelectList(""), "--Select Course--")
+                @Html.ValidationMessageFor(x => x.CourseId)
+            </td>
+
+            <tr>
+                <td>@Html.LabelFor(x => x.GradeId)</td>
+                <td>
+                    @Html.DropDownListFor(x => x.GradeId, new SelectList(ViewBag.GradeLetters, "Value", "Text"))
+                    @Html.ValidationMessageFor(x => x.GradeId)
+                </td>
+            </tr>
+
+            <tr>
+
+                <td><input type="submit" value="Save"/></td>
+            </tr>
+        </table>
+    }
+</div>
+
+@section scripts
+{
+
+
+    <script src="~/Scripts/jquery-1.12.4.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+
+    <script>
+
+        $(document).ready(function() {
+            $("#StudentId").change(function () {
+                var studentId = $("#StudentId").val();
+                var json = { Id: studentId };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("GetStudentById", "Student")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+                    success: function (data) {
+                        $("#StudentName").val(data.StudentName);
+                        $("#Email").val(data.Email);
+                        $("#Department").val(data.Code);
+                    }
+                });
+            });
+
+            $("#StudentId").change(function () {
+                var dpart = $("#StudentId").val();
+                var json =
+                {
+                    Id: dpart
+                };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("GetCourseByStudentId", "Student")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+                    success: function (data) {
+                        $("#CourseId").empty();
+                        $("#CourseId").append('<option value="">--Select Course--</option>');
+                        $.each(data, function (key, value) {
+                            $("#CourseId").append('<option value=' + value.CourseId + '>' + value.CourseName + '</option>');
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+}

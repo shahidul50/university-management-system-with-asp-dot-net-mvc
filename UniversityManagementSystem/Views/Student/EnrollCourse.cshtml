@@ -1,0 +1,145 @@
+﻿@model UniversityManagementSystem.Models.EnrollCourse
+@{
+    ViewBag.Title = "EnrollCourse";
+}
+
+<h2>EnrollCourse</h2>
+@section Css
+{
+
+    <link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+}
+<h2 class="text-center">EnrollCourse</h2>
+<hr />
+@if (ViewBag.Message != null)
+{
+    <p>@ViewBag.Message</p>
+}
+<hr />
+
+<div>
+
+    @using (Html.BeginForm())
+    {
+        <table>
+            <tr>
+                <td>@Html.LabelFor(x => x.StudentId)</td>
+                <td>
+                    @Html.DropDownListFor(x => x.StudentId, new SelectList(ViewBag.RegistrationNum, "Value", "Text"))
+                    @Html.ValidationMessageFor(x => x.StudentId)
+                </td>
+
+            <tr>
+                <td>
+                    <label for="StudentName"> Name</label>
+                </td>
+                <td>
+                    <input type="text" id="StudentName" name="StudentName" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Email"> Email</label>
+                </td>
+                <td>
+                    <input type="text" id="Email" name="Email" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Department"> Department</label>
+                </td>
+                <td>
+                    <input type="text" id="Department" name="Department" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@Html.LabelFor(x => x.CourseId)</td>
+                <td>
+                    @Html.DropDownListFor(x => x.CourseId, new SelectList(""), "--Select Course--")
+                    @Html.ValidationMessageFor(x => x.CourseId)
+                </td>
+
+            <tr>
+                <td>@Html.LabelFor(x => x.Date)</td>
+                <td>
+                    @Html.TextBoxFor(x => x.Date)
+                    @Html.ValidationMessageFor(x => x.Date)
+                </td>
+            </tr>
+
+            <tr>
+
+                <td><input type="submit" value="Enroll" /></td>
+            </tr>
+        </table>
+    }
+</div>
+@section scripts
+{
+
+
+    <script src="~/Scripts/jquery-1.12.4.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+
+    <script>
+        $(function() {
+            $("#Date").datepicker({
+                dateFormat: "dd/mm/yy",
+                changeMonth: true,
+                changeYear: true,
+                showAnim: "slide",
+                showOn: "button",
+                buttonText: "<i class='fa fa-calendar'><i/>"
+
+            });
+        });
+
+        $(document).ready(function() {
+            $("#StudentId").change(function () {
+                var studentId = $("#StudentId").val();
+                var json = { Id: studentId };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("GetStudentDetailsById", "Student")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+                    success: function (data) {
+                        $("#StudentName").val(data.Name);
+                        $("#Email").val(data.Email);
+                        $("#Department").val(data.Code);
+                    }
+                });
+            });
+
+            $("#StudentId").change(function () {
+                var dpart = $("#StudentId").val();
+                var json =
+                {
+                    Id: dpart
+                };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("GetAllCourseByStudentId", "Student")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+                    success: function (data) {
+                        $("#CourseId").empty();
+                        $("#CourseId").append('<option value="">--Select Course--</option>');
+                        $.each(data, function (key, value) {
+                            $("#CourseId").append('<option value=' + value.CourseId + '>' + value.CourseName + '</option>');
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+}
+
+

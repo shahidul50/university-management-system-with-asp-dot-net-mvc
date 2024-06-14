@@ -1,0 +1,54 @@
+﻿@using UniversityManagementSystem.Models
+@model UniversityManagementSystem.Models.Department
+@{
+    ViewBag.Title = "Create Department";
+}
+@section Css
+{
+    <style>
+        Label.Error {
+            color: Blue;
+        }   
+    </style>
+
+}
+<br/>
+<hr/>
+@if (ViewBag.Message != null)
+{
+    <p>@ViewBag.Message</p>
+}
+<hr/>
+<div>
+    @using (Html.BeginForm(null, "Department", FormMethod.Post))
+    {
+        <table>
+            <tr>
+                <td>@Html.LabelFor(x => x.Code)</td>
+                <td>
+                    @Html.TextBoxFor(x => x.Code)
+                    @Html.ValidationMessageFor(x => x.Code)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(x => x.Name)</td>
+                <td>
+                    @Html.TextBoxFor(x => x.Name)
+                    @Html.ValidationMessageFor(x => x.Name)
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Save"/></td>
+            </tr>
+        </table>
+    }
+   
+</div>
+@section scripts
+{
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+}
+
+

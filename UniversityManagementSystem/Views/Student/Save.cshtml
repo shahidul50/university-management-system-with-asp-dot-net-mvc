@@ -1,0 +1,144 @@
+﻿@using UniversityManagementSystem.Models
+@model UniversityManagementSystem.Models.Student
+@{
+    ViewBag.Title = "Save";
+    Student student = ViewBag.StudentDetails;
+}
+@section Css
+{
+
+    <link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+}
+<h2 class="text-center">Create New Student</h2>
+<hr />
+@if (ViewBag.Message != null)
+{
+    <p>@ViewBag.Message</p>
+}
+<hr />
+<br/>
+<br/>
+
+<div>
+    @using (Html.BeginForm())
+    {
+        <table>
+            <tr>
+                <td>@Html.LabelFor(x => x.Name)</td>
+                <td>
+                    @Html.TextBoxFor(x => x.Name)
+                    @Html.ValidationMessageFor(x => x.Name)
+                </td>
+            </tr>
+
+            <tr>
+                <td>@Html.LabelFor(x => x.Email)</td>
+                <td>
+                    @Html.TextBoxFor(x => x.Email)
+                    @Html.ValidationMessageFor(x => x.Email)
+                </td>
+            </tr>
+
+            <tr>
+                <td>@Html.LabelFor(x => x.ContactNo)</td>
+                <td>
+                    @Html.TextBoxFor(x => x.ContactNo)
+                    @Html.ValidationMessageFor(x => x.ContactNo)
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>@Html.LabelFor(x => x.Date)</td>
+                <td>
+                    @Html.TextBoxFor(x => x.Date)
+                    @Html.ValidationMessageFor(x => x.Date)
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>@Html.LabelFor(x => x.Address)</td>
+                <td>
+                    @Html.TextAreaFor(x => x.Address)
+                    @Html.ValidationMessageFor(x => x.Address)
+                </td>
+            </tr>
+
+            <tr>
+                <td>@Html.LabelFor(x => x.DepartmentId)</td>
+                <td>
+                    @Html.DropDownListFor(x => x.DepartmentId, new SelectList(ViewBag.Departments, "Value", "Text"))
+                    @Html.ValidationMessageFor(x => x.DepartmentId)
+                </td>
+            </tr>
+
+            <tr>
+
+                <td><input type="submit" name="Register"/></td>
+            </tr>
+        </table>
+    }
+</div>
+@if (student != null) { 
+<div>
+    <table>
+        <tr>
+            <td>Registration Number:</td>
+            <td>@student.RegistrationNumber</td>
+        </tr>
+
+        <tr>
+            <td>Name:</td>
+            <td>@student.Name</td>
+        </tr>
+
+        <tr>
+            <td>Email:</td>
+            <td>@student.Email</td>
+        </tr>
+
+        <tr>
+            <td>Contact No:</td>
+            <td>@student.ContactNo</td>
+        </tr>
+
+        <tr>
+            <td>Address:</td>
+            <td>@student.Address</td>
+        </tr>
+
+        <tr>
+            <td>Date:</td>
+            <td>@student.Date</td>
+        </tr>
+    </table>
+</div>
+}
+
+
+@section scripts
+{
+    <script src="~/Scripts/jquery-1.12.4.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+
+    <script>
+    $(function () {
+        $("#Date").datepicker({
+            dateFormat: "dd/mm/yy",
+            changeMonth: true,
+            changeYear: true,
+            showAnim: "slide",
+            showOn: "button",
+            buttonText: "<i class='fa fa-calendar'><i/>"
+
+    });
+    });
+    $(document).ready(function() {
+        $("#Date").prop('disabled', false);
+    });
+    </script>
+}

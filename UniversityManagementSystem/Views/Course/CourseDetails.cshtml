@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title = "CourseDetails";
+}
+
+<h2>CourseDetails</h2>
+<div>
+    <td>@Html.DropDownList("DepartmentId", new SelectList(ViewBag.Departments, "Value", "Text")) </td>
+
+</div>
+
+<div>
+    <table border="1" id ="myTable">
+        <thead>
+        <th>Code</th>
+        <th>Name</th>
+        <th>Semester</th>
+        <th>Assigned To</th>
+        </thead>
+        <tbody id="CourseDetails">
+
+        </tbody>
+    </table>
+</div>
+
+@section scripts
+{
+    <script>
+
+        $(document).ready(function () {
+            $("#myTable").hide();
+            $("#DepartmentId").change(function () {
+                var deptId = $("#DepartmentId").val();
+                var json =
+                {
+                   Id: deptId
+                };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("CourseDetailsByDepartment", "Course")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+                    success: function (data) {
+                        $("#myTable").show();
+                       // table.clear().draw(false);
+                        $("#CourseDetails").empty();
+                        $.each(data, function (key, value) {
+                            $("#CourseDetails").append('<tr> <td>' + value.Code + ' </td>   <td> ' + value.Name + '</td>    <td> ' + value.Semester + '</td>    <td>' + value.TeacherName + ' </td> </tr>');
+                        });
+                        //if (ID === 0) {
+                        //    $("#myTable").hide();
+                        //}
+                    }
+                });
+            });
+        });
+</script>
+}
+

@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Save</title>
+</head>
+<body>
+<div>
+
+    <form method="POST">
+        <label for="Code">Code</label>
+        <input type="text" name="Code" id="Code"/><br/>
+        <label for="Name">Name</label>
+        <input type="text" name="Name" id="Name"/><br/>
+        <input type="submit" value="Save"/>
+    </form>
+    <p>@ViewBag.massage</p>
+</div>
+</body>
+</html>

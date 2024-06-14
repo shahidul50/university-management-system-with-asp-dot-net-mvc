@@ -1,0 +1,74 @@
+﻿@model UniversityManagementSystem.Models.Teacher
+@{
+    //Layout = null;
+}
+
+   <br/>
+    <hr/>
+        @if (ViewBag.Message != null)
+          {
+            <p>@ViewBag.Message</p>
+          }
+    <hr/>
+<div class="row">
+    @using (Html.BeginForm())
+    {
+        <table>
+            <tr>
+                <td>@Html.LabelFor(x => x.Name)</td>
+                <td>@Html.TextBoxFor(x => x.Name)
+                    @Html.ValidationMessageFor(x => x.Name)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(x => x.Address)</td>
+                <td>@Html.TextAreaFor(x => x.Address)
+                    @Html.ValidationMessageFor(x => x.Address)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(x => x.Eamil)</td>
+                <td>@Html.TextBoxFor(x => x.Eamil)
+                    @Html.ValidationMessageFor(x => x.Eamil)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(x => x.ContactNo)</td>
+                <td>@Html.TextBoxFor(x => x.ContactNo)
+                    @Html.ValidationMessageFor(x => x.ContactNo)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(x => x.DesignationId)</td>
+                <td>@Html.DropDownListFor(x => x.DesignationId, new SelectList(ViewBag.Designations, "Value", "Text"))
+                    @Html.ValidationMessageFor(x => x.DesignationId)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(x => x.DepartmentId)</td>
+                <td>@Html.DropDownListFor(x => x.DepartmentId, new SelectList(ViewBag.Departments, "Value", "Text"))
+                    @Html.ValidationMessageFor(x => x.DepartmentId)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(x => x.CreditTaken)</td>
+                <td>@Html.TextBoxFor(x => x.CreditTaken)
+                    @Html.ValidationMessageFor(x => x.CreditTaken)
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Save"/></td>
+            </tr>
+        </table>
+
+    }
+
+</div>
+
+@section scripts
+{
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+}
+

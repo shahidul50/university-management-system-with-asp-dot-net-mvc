@@ -1,0 +1,157 @@
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\bin\UniversityManagementSystem.dll.config
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\bin\UniversityManagementSystem.dll
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\bin\UniversityManagementSystem.pdb
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\bin\Antlr3.Runtime.dll
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\bin\Newtonsoft.Json.dll
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Helpers.dll
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Mvc.dll
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Optimization.dll
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Razor.dll
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Deployment.dll
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.dll
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Razor.dll
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\bin\WebGrease.dll
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Helpers.xml
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Mvc.xml
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Optimization.xml
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Razor.xml
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.xml
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Deployment.xml
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Razor.xml
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\bin\Newtonsoft.Json.xml
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\bin\Antlr3.Runtime.pdb
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.csprojResolveAssemblyReference.cache
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.dll
+E:\SEIP.NET\Batch 17\27th Class 08.09.2018\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.pdb
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\bin\UniversityManagementSystem.dll.config
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\bin\UniversityManagementSystem.dll
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\bin\UniversityManagementSystem.pdb
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\bin\Antlr3.Runtime.dll
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\bin\Newtonsoft.Json.dll
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Helpers.dll
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Mvc.dll
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Optimization.dll
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Razor.dll
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Deployment.dll
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.dll
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Razor.dll
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\bin\WebGrease.dll
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Helpers.xml
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Mvc.xml
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Optimization.xml
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Razor.xml
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.xml
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Deployment.xml
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Razor.xml
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\bin\Newtonsoft.Json.xml
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\bin\Antlr3.Runtime.pdb
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.csprojResolveAssemblyReference.cache
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.dll
+D:\Visual Stdio Code\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.pdb
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\bin\UniversityManagementSystem.dll.config
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\bin\UniversityManagementSystem.dll
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\bin\UniversityManagementSystem.pdb
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\bin\Antlr3.Runtime.dll
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\bin\Newtonsoft.Json.dll
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Helpers.dll
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Mvc.dll
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Optimization.dll
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Razor.dll
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Deployment.dll
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.dll
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Razor.dll
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\bin\WebGrease.dll
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Helpers.xml
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Mvc.xml
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Optimization.xml
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Razor.xml
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.xml
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Deployment.xml
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Razor.xml
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\bin\Newtonsoft.Json.xml
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\bin\Antlr3.Runtime.pdb
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.csprojResolveAssemblyReference.cache
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.dll
+E:\SEIP.NET\Batch 17\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.pdb
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\bin\UniversityManagementSystem.dll.config
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\bin\UniversityManagementSystem.dll
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\bin\UniversityManagementSystem.pdb
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Razor.dll
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\bin\WebGrease.dll
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Razor.xml
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.dll
+C:\Users\shahi\Desktop\Files\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.pdb
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\bin\UniversityManagementSystem.dll.config
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\bin\UniversityManagementSystem.dll
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\bin\UniversityManagementSystem.pdb
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\bin\Antlr3.Runtime.dll
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\bin\Newtonsoft.Json.dll
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Helpers.dll
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Mvc.dll
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Optimization.dll
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Razor.dll
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Deployment.dll
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.dll
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Razor.dll
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\bin\WebGrease.dll
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Helpers.xml
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Mvc.xml
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Optimization.xml
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Razor.xml
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.xml
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Deployment.xml
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Razor.xml
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\bin\Newtonsoft.Json.xml
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\bin\Antlr3.Runtime.pdb
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.dll
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.pdb
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.csprojAssemblyReference.cache
+D:\BItm Project\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.csproj.CopyComplete
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\bin\UniversityManagementSystem.dll.config
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\bin\UniversityManagementSystem.dll
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\bin\UniversityManagementSystem.pdb
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\bin\Antlr3.Runtime.dll
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\bin\Newtonsoft.Json.dll
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Helpers.dll
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Mvc.dll
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Optimization.dll
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Razor.dll
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Deployment.dll
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.dll
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Razor.dll
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\bin\WebGrease.dll
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Helpers.xml
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Mvc.xml
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Optimization.xml
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Razor.xml
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.xml
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Deployment.xml
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Razor.xml
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\bin\Newtonsoft.Json.xml
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\bin\Antlr3.Runtime.pdb
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.csprojResolveAssemblyReference.cache
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.dll
+D:\1.Old Projects\BItm Projects\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.pdb

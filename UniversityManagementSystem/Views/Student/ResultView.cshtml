@@ -1,0 +1,121 @@
+﻿@model UniversityManagementSystem.Models.ResultView
+@{
+    ViewBag.Title = "ResultView";
+}
+
+<h2 class="text-center">ResultView</h2>
+
+<div>
+    @using (Html.BeginForm())
+    {
+        <table>
+            <tr>
+            <td>@Html.LabelFor(x => x.StudentId)</td>
+            <td>
+                @Html.DropDownListFor(x => x.StudentId, new SelectList(ViewBag.RegistrationNum, "Value", "Text"))
+                @Html.ValidationMessageFor(x => x.StudentId)
+            </td>
+
+            <tr>
+                <td>
+                    <label for="StudentName"> Name</label>
+                </td>
+                <td>
+                    <input type="text" id="StudentName" name="StudentName"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Email"> Email</label>
+                </td>
+                <td>
+                    <input type="text" id="Email" name="Email"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Department"> Department</label>
+                </td>
+                <td>
+                    <input type="text" id="Department" name="Department"/>
+                </td>
+            </tr>
+
+            <tr>
+
+                <td><input type="submit" value="Make PDF"/></td>
+            </tr>
+        </table>
+    }
+</div>
+
+<div>
+    <table id="Mytable" border="1">
+        <thead>
+        <tr>
+            <th>Course Code</th>
+            <th>Name</th>
+            <th>Grade</th>
+        </tr>
+        </thead>
+        <tbody id="studentResultDetails">
+               
+        </tbody>
+    </table>
+</div>
+
+@section scripts
+{
+
+
+    <script src="~/Scripts/jquery-1.12.4.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            $("#Mytable").hide();
+            $("#StudentId").change(function () {
+                var studentId = $("#StudentId").val();
+                var json = { StudentId: studentId };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("GetResultView", "Student")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+                    success: function (data) {
+                        $("#Mytable").show();
+                        $("#studentResultDetails").empty();
+                        $.each(data, function (key, value) {
+                            $("#studentResultDetails").append('<tr> <td>' + value.CourseCode + ' </td>   <td> ' + value.CourseName + '</td>  <td>' + value.Grade + ' </td> </tr>');
+                        });
+                    }
+                });
+            });
+
+
+            $("#StudentId").change(function () {
+                var studentId = $("#StudentId").val();
+                var json = { StudentId: studentId };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("GetOneResultView", "Student")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+                    success: function (data) {
+                        $("#StudentName").val(data.StudentName);
+                        $("#Email").val(data.Email);
+                        $("#Department").val(data.DepartmentCode);
+                    }
+                });
+            });
+
+
+          
+        });
+    </script>
+}

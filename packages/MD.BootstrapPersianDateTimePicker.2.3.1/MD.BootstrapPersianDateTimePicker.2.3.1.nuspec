@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>MD.BootstrapPersianDateTimePicker</id>
+    <version>2.3.1</version>
+    <title>MD.BootstrapPersianDateTimePicker</title>
+    <authors>MohammadDayyan</authors>
+    <owners>MohammadDayyan</owners>
+    <licenseUrl>http://www.codeproject.com/info/cpol10.aspx</licenseUrl>
+    <projectUrl>https://github.com/Mds92/MD.BootstrapPersianDateTimePicker</projectUrl>
+    <iconUrl>http://www.codeproject.com/KB/scripting/858123/PersianDateTimePickerIcon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>If you are looking for a jquery plugin Persian DateTimePicker with bootstrap, MdPersianDateTime is that it.
+This plugin use bootstrap popover to show Persian DateTimePicker. so it has flexibility of bootstrap's popover.</description>
+    <summary>MdPersianDateTime is a jQuery plugin to create Persian DateTimePicker with bootstrap popover</summary>
+    <releaseNotes>Fix a bug in `InLine` mode</releaseNotes>
+    <copyright>Mohammad Dayyan</copyright>
+    <tags>DateTimePicker Javascript Jquery Bootstrap</tags>
+    <dependencies>
+      <dependency id="bootstrap" version="3.3.1" />
+      <dependency id="jQuery" version="1.9.0" />
+    </dependencies>
+  </metadata>
+</package>

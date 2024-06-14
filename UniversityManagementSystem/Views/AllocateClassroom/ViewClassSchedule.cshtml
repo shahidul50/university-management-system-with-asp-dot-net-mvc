@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "ViewClassSchedule";
+}
+
+<h2>ViewClassSchedule</h2>
+
+
+<div>
+    @using (Html.BeginForm())
+    {
+        <table>
+            <tr>
+                <td>@Html.LabelFor(x => x.DepartmentId)</td>
+                <td>
+                    @Html.DropDownListFor(x => x.DepartmentId, new SelectList(ViewBag.Departments, "Value", "Text"), new { @class = "form-group" })
+                    @Html.ValidationMessageFor(x => x.DepartmentId)
+                </td>
+            </tr>
+        </table>
+    }
+</div>
+
+<div>
+    <table id="myTable">
+        <thead>
+            <tr>
+                <th> Course Code</th>
+                <th>Name</th>
+                <th>Schedule Info</th>
+            </tr>
+        </thead>
+        <tbody id="RoomDetails"></tbody>
+    </table>
+</div>
+@section scripts
+{
+
+    @*<script src="~/Scripts/jquery-1.12.4.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#myTable").hide();
+            $("#DepartmentId").change(function () {
+                var dept = $("#DepartmentId").val();
+                var json = { departmentId: dept };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("GetResultView", "AllocateClassroom")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+                    success: function (data) {
+                        $("#myTable").show();
+                        $("#RoomDetails").empty();
+                        $.each(data, function (key, value) {
+                            $("#RoomDetails").append('<tr> <td>' + value.CourseCode + ' </td>   <td> ' + value.CourseName + '</td>  <td>' + value.Grade + ' </td> </tr>');
+                        });
+                    }
+                });
+            });
+        });
+    </script>*@
+}
